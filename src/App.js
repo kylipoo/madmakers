@@ -1,42 +1,16 @@
-import { Component } from 'react';
+import { Routes, Route } from 'react-router-dom';
+
+import Home from './routes/home/home.component';
+import Story1 from './components/story/story1.component';
 import './App.css';
 
-class App extends Component {
-constructor() {
-  super();
+const App = () => {
+  return(
+    <Routes>
+      <Route path='/' element={<Home/>} />
+      <Route path='/story1' element={<Story1/>} />
+    </Routes>
+  )
+};
 
-  this.state = {
-  monsters: [
-   {
-    name: 'Matthew',
-    id: '12345',
-  }, 
-   {
-    name: 'Frank',
-    id: '32432',
-  }, 
-   {
-    name: 'Jacky',
-    id: '33432',
-  }, 
-  {
-    name: 'Andrei',
-    id: '98698'
-  }, 
-]
-  };
-}
-
-  render() {
-  return (
-    <div className="App">
-     {
-      this.state.monsters.map((monster) =>{
-        return <div key = {monster.id}><h1>{monster.name}</h1></div>
-      })
-     }
-    </div>
-  );
-}
-}
 export default App;
