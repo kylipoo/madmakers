@@ -22,7 +22,7 @@ const Home = () => {
 
   return (
     <div className='App'>
-      <h1 className='app-title'>Monsters Madlibs</h1>
+      <h1 className='app-title'>Monsters Games</h1>
 
       <SearchBox
         className='monsters-search-box'

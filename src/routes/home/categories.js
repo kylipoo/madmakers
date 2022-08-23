@@ -1,7 +1,7 @@
 export const categories = [
 {
     id: 1,
-    name: 'madlibs',
+    name: 'Mad libs',
     description: 'Dog Ate My Mad Libs'
 },
 {
