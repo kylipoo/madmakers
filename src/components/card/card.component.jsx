@@ -2,17 +2,17 @@ import "./card.styles.css";
 import { Link } from "react-router-dom";
 
 const Card = ({ monster }) => {
-  const { id, name, email } = monster;
+  const { id, name, description } = monster;
 
   return (
     <div className="card-container">
-      <Link to={`/story${id}`}>
+      <Link to={`/madlibs`}>
         <img
           alt={`monster ${name}`}
           src={`https://robohash.org/${id}?set=set2&size=180x180`}
         />
         <h2>{name}</h2>
-        <p>{email}</p>
+        <p>{description}</p>
       </Link>
     </div>
   );

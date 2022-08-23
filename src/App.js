@@ -1,14 +1,14 @@
 import { Routes, Route } from 'react-router-dom';
 
 import Home from './routes/home/home.component';
-import Story1 from './components/story/story1.component';
+import MadLibsList from './components/madlibs-list/madlibs-list.component';
 import './App.css';
 
 const App = () => {
   return(
     <Routes>
       <Route path='/' element={<Home/>} />
-      <Route path='/story1' element={<Story1/>} />
+      <Route path='/madlibs' element={<MadLibsList/>} />
     </Routes>
   )
 };

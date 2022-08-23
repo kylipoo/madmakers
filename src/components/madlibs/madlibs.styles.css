@@ -1,0 +1,47 @@
+
+.inputForm {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  grid-template-rows: 10fr;
+  margin: 0px 0px 5px 100px;
+  text-align: left;
+}
+
+.actionButton {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 20px 0px 5px 100px;
+  text-align: left;
+  grid-column-gap: 18px;
+}
+
+.story-body {
+  font-weight: 400;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  background-color: #246e31;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 100px;
+  cursor: pointer;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+}
+
+.madlibs-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #95dada;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 25px;
+  cursor: pointer;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+}
+
