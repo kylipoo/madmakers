@@ -1,6 +1,5 @@
 import "./madlibs.styles.css";
 import { useState } from "react";
-import output from "./output.component";
 import Output from "./output.component";
 const Madlibs = ({inputs, name, id}) => {
   const [fields, setFields] = useState(inputs);
