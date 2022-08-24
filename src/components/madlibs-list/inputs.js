@@ -176,6 +176,187 @@ export const libsIn = [
             placeholder: 'household appliance',
             value: ""
         },
+        ],
+        
+    },
+    {
+        id: 4,
+        name: "A Day At the Zoo!",
+        mad: [{
+            label: 'ADJECTIVE',
+            placeholder: '',
+            value: ""
+        },
+        {
+            label: 'NOUN',
+            placeholder: 'someone',
+            value: ""
+        },
+        {
+            label: 'VERB',
+            placeholder: 'verb, past tense',
+            value: ""
+        },
+        {
+            label: 'ADVERB',
+            placeholder: '',
+            value: ""
+        },
+        {
+            label: 'ADJECTIVE',
+            placeholder: '',
+            value: ""
+        },
+        {
+            label: 'NOUN',
+            placeholder: '',
+            value: ""
+        },
+        {
+            label: 'NOUN',
+            placeholder: '',
+            value: ""
+        },
+        {
+            label: 'ADJECTIVE',
+            placeholder: '',
+            value: ""
+        },
+        {
+            label: 'VERB',
+            placeholder: '',
+            value: ""
+        },
+        {
+            label: 'ADVERB',
+            placeholder: '',
+            value: ""
+        },
+        {
+            label: 'VERB',
+            placeholder: 'verb, past tense',
+            value: ""
+        },
+        {
+            label: 'ADJECTIVE',
+            placeholder: '',
+            value: ""
+        },
+        ]
+    },
+    {
+        id: 5,
+        name: "Make Me a Video Game!",
+        mad: [{
+            label: 'ADJECTIVE',
+            placeholder: '',
+            value: ""
+        },
+        {
+            label: 'ADJECTIVE',
+            placeholder: '',
+            value: ""
+        },
+        {
+            label: 'NOUN',
+            placeholder: 'a first name',
+            value: ""
+        },
+        {
+            label: 'VERB',
+            placeholder: 'past tense verb',
+            value: ""
+        },
+        {
+            label: 'NOUN',
+            placeholder: 'a first name',
+            value: ""
+        },
+        {
+            label: 'ADJECTIVE',
+            placeholder: '',
+            value: ""
+        },
+        {
+            label: 'NOUN',
+            placeholder: 'plural nown',
+            value: ""
+        },
+        {
+            label: 'NOUN',
+            placeholder: 'large animal',
+            value: ""
+        },
+        {
+            label: 'NOUN',
+            placeholder: 'small animal',
+            value: ""
+        },
+        {
+            label: 'NOUN',
+            placeholder: 'a girl\'s name',
+            value: ""
+        },
+        {
+            label: 'ADJECTIVE',
+            placeholder: '',
+            value: ""
+        },
+        {
+            label: 'NOUN',
+            placeholder: 'plural noun',
+            value: ""
+        },
+        {
+            label: 'ADJECTIVE',
+            placeholder: '',
+            value: ""
+        },
+        {
+            label: 'NOUN',
+            placeholder: 'plural noun',
+            value: ""
+        },
+        {
+            label: 'ADJECTIVE',
+            placeholder: '',
+            value: ""
+        },
+        {
+            label: 'NOUN',
+            placeholder: 'plural noun',
+            value: ""
+        },
+        {
+            label: 'NOUN',
+            placeholder: 'number 1-50',
+            value: ""
+        },
+        {
+            label: 'NOUN',
+            placeholder: 'first name\'s',
+            value: ""
+        },
+        {
+            label: 'NOUN',
+            placeholder: 'number',
+            value: ""
+        },
+        {
+            label: 'NOUN',
+            placeholder: 'plural noun',
+            value: ""
+        },
+        {
+            label: 'NOUN',
+            placeholder: 'number',
+            value: ""
+        },
+        {
+            label: 'NOUN',
+            placeholder: 'plural noun',
+            value: ""
+        },
         ]
     }
 
