@@ -4,6 +4,7 @@ import Output from "./output.component";
 const Madlibs = ({inputs, name, id}) => {
   const [fields, setFields] = useState(inputs);
   const [show, setShow] = useState(false);
+  const [word, setWord] = useState('');
   const reset = () => {
     for (let index = 0; index < fields.length; index++) {
       let newArr = [...fields]; // copying the old datas array
@@ -15,6 +16,7 @@ const Madlibs = ({inputs, name, id}) => {
     let newArr = [...fields]; // copying the old datas array
     newArr[index].value = e.target.value; // replace e.target.value with whatever you want to change it to
     setFields(newArr);
+    setWord(e.target.value);
   }
 
   return (
@@ -46,7 +48,7 @@ const Madlibs = ({inputs, name, id}) => {
         </div>
       </div>
       <div className="story-body">
-        {show && <Output fields={fields} id={id}/>}
+        {show && <Output fields={fields} id={id} word={word}/>}
       </div>
     </>
   );

@@ -31,9 +31,37 @@
   transition: transform 0.25s ease-out;
 }
 
-.story-body >div > span {
+.story-body >div > div > span {
     color: rgb(200, 255, 0);
     font-weight: 800;
+}
+.outputContainer {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 18px;
+  grid-row-gap: 12px;
+}
+.robot {
+  height: 150px;
+  width: 150px;
+  margin-top: 50px;
+  margin-left: 400px;
+}
+
+.talking {
+  height: 100px;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.word {
+  position: absolute;
+  bottom: -16px;
+  left: 220px;
+  color:  rgb(200, 255, 0);
+  font-weight: 800;
+  font-size: x-large;
 }
 
 .madlibs-container {

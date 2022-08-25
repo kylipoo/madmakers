@@ -1,27 +1,20 @@
 import "./madlibs.styles.css";
-import {story1, story2, story3, story4, story5, story6} from "./output";
-const Output = ({ fields, id }) => {
+import story from "./output";
+const Output = ({ fields, id, word}) => {
+  const theRandomNumber = Math.floor(Math.random() * 500) + 1;
   return (
-    <>
-      {id === 1 &&
-        <div dangerouslySetInnerHTML={{ __html: story1(fields)}}/>
-      }
-      {id === 2 && (
-         <div dangerouslySetInnerHTML={{ __html: story2(fields) }} />
-      )}
-      {id === 3 && (
-        <div dangerouslySetInnerHTML={{ __html: story3(fields) }} />
-      )}
-      {id === 4 && (
-        <div dangerouslySetInnerHTML={{ __html: story4(fields) }} />
-      )}
-      {id === 5 && (
-        <div dangerouslySetInnerHTML={{ __html: story5(fields) }} />
-      )}
-      {id === 6 && (
-        <div dangerouslySetInnerHTML={{ __html: story6(fields) }} />
-      )}
-    </>
+    <div  className="outputContainer">
+      <div dangerouslySetInnerHTML={{ __html: story(fields, id) }} />
+      <div>
+        <div className="talking">
+          <div class="word">{word}</div>
+          <img src='http://www.downloadclipart.net/medium/speech-bubble-png-file.png' alt="speech bubble" />
+        </div>
+        <div className="robot">
+          <img src={`https://robohash.org/${theRandomNumber}?set=set2&size=180x180`}  alt="robot"/>
+        </div>
+      </div>
+    </div>
   );
 };
 
