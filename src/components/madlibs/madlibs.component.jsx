@@ -18,6 +18,11 @@ const Madlibs = ({inputs, name, id}) => {
     setFields(newArr);
     setWord(e.target.value);
   }
+  const onSubmitHandler = () => {
+    let newArr = [...fields];
+    setWord(`Good job!`);
+    setShow(true);
+  }
 
   return (
     <>
@@ -37,13 +42,7 @@ const Madlibs = ({inputs, name, id}) => {
             </div>);
         })}
         <div className="actionButton">
-          <button
-            onClick={(event) => {
-              setShow(true);
-            }}
-          >
-            {"Go Mad!"}
-          </button>
+          <button onClick={onSubmitHandler}>{"Go Mad!"} </button>
           <button onClick={reset}>{"Play again!"}</button>
         </div>
       </div>
