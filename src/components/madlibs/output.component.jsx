@@ -12,13 +12,14 @@ const Output = ({ fields, id, word}) => {
     <div  className="outputContainer">
       <div dangerouslySetInnerHTML={{ __html: story(fields, id) }} />
       <div>
-        <div className="talking">
-          <div class="word">{word}</div>
-          <img src='http://www.downloadclipart.net/medium/speech-bubble-png-file.png' alt="speech bubble" />
-        </div>
-        <div className="robot">
+          <div className="word">{word}</div>
+          <div className="talking">
+           <img src='http://www.downloadclipart.net/medium/speech-bubble-png-file.png' alt="speech bubble" />
+           <img src={`https://robohash.org/${theRandomNumber}?set=set${group}&size=180x180`}  alt="robot"/>
+          </div>
+        {/* <div className="robot">
           <img src={`https://robohash.org/${theRandomNumber}?set=set${group}&size=180x180`}  alt="robot"/>
-        </div>
+        </div> */}
       </div>
     </div>
   );
