@@ -19,7 +19,6 @@ const Madlibs = ({inputs, name, id}) => {
     setWord(e.target.value);
   }
   const onSubmitHandler = () => {
-    let newArr = [...fields];
     setWord(`Good job!`);
     setShow(true);
   }
