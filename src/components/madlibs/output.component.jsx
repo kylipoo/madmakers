@@ -49,6 +49,15 @@ const Output = ({ fields, id }) => {
             `}
         </div>
       )}
+      {id === 6 && (
+        <div>
+          {`I walk through the color jungle. I take out my (  ${fields[0].value}  ) canteen. There's a (  ${fields[1].value}  ) parrot with a (  ${fields[2].value}  ) (  ${fields[3].value}  ) in his mouth right there in front of me in the (  ${fields[4].value}  ) trees! I gaze at his 
+          (  ${fields[5].value}  ) (  ${fields[6].value}  ). A sudden sound awakes me from my daydream! A panther's (  ${fields[7].value}  ) in front of my head! I
+          (  ${fields[8].value}  ) his (  ${fields[9].value}  ) breath. I remember I have a packet of (  ${fields[10].value}  ) that makes go into a deep slumber! I (  ${fields[11].value}  ) it away from me in front of the (  ${fields[12].value}  ). Yes he's eating it! I 
+          (  ${fields[13].value}  ) away through the (  ${fields[14].value}  ) jungle. I meet the parents at the tent. Phew! It's been an exciting day in the jungle.
+            `}
+        </div>
+      )}
     </>
   );
 };

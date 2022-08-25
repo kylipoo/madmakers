@@ -358,6 +358,86 @@ export const libsIn = [
             value: ""
         },
         ]
+    },
+    {
+        id: 6,
+        name: "In the Jungle!",
+        mad: [{
+            label: 'ADJECTIVE',
+            placeholder: '',
+            value: ""
+        },
+        {
+            label: 'ADJECTIVE',
+            placeholder: '',
+            value: ""
+        },
+        {
+            label: 'ADJECTIVE',
+            placeholder: '',
+            value: ""
+        },
+        {
+            label: 'NOUN',
+            placeholder: '',
+            value: ""
+        },
+        {
+            label: 'ADJECTIVE',
+            placeholder: '',
+            value: ""
+        },
+        {
+            label: 'ADJECTIVE',
+            placeholder: '',
+            value: ""
+        },
+        {
+            label: 'NOUN',
+            placeholder: '',
+            value: ""
+        },
+        {
+            label: 'VERB',
+            placeholder: '',
+            value: ""
+        },
+        {
+            label: 'VERB',
+            placeholder: '',
+            value: ""
+        },
+        {
+            label: 'ADJECTIVE',
+            placeholder: '',
+            value: ""
+        },
+        {
+            label: 'NOUN',
+            placeholder: '',
+            value: ""
+        },
+        {
+            label: 'VERB',
+            placeholder: '',
+            value: ""
+        },
+        {
+            label: 'NOUN',
+            placeholder: '',
+            value: ""
+        },
+        {
+            label: 'VERB',
+            placeholder: '',
+            value: ""
+        },
+        {
+            label: 'ADJECTIVE',
+            placeholder: '',
+            value: ""
+        },
+        ]
     }
 
 ]
