@@ -41,7 +41,7 @@ const Madlibs = ({inputs, name, id}) => {
             </div>);
         })}
         <div className="actionButton">
-          <button onClick={onSubmitHandler}>{"Go Mad!"} </button>
+          <button onClick={onSubmitHandler}>{"Go mad!"} </button>
           <button onClick={reset}>{"Play again!"}</button>
         </div>
       </div>

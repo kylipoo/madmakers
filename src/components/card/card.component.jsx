@@ -6,7 +6,7 @@ const Card = ({ monster }) => {
 
   return (
     <div className="card-container">
-      <Link to={`/madlibs`}>
+      <Link to={`/jokes`}>
         <img
           alt={`monster ${name}`}
           src={`https://robohash.org/${id}?set=set2&size=180x180`}
