@@ -49,6 +49,13 @@ const story = (fields, id) => {
         <span>(  ${fields[13].value}  )</span> away through the <span>(  ${fields[14].value}  )</span> jungle. I meet the parents at the tent. Phew! It's been an exciting day in the jungle.
         `;
         break;
+        case 7: resp =
+        `Last summer, my mom and dad took me and <span>(  ${fields[0].value}  )</span> on a trip to <span>(  ${fields[1].value}  )</span>. The weather there is very <span>(  ${fields[2].value}  )</span>! Northern <span>(  ${fields[3].value}  )</span> has many <span>(  ${fields[4].value}  )</span>, and they make
+    <span>(  ${fields[5].value}  )</span> <span>(  ${fields[6].value}  )</span> there. Many people also go to <span>(  ${fields[7].value}  )</span> to
+    <span>(  ${fields[8].value}  )</span> or see the <span>(  ${fields[9].value}  )</span>. The people that live there love to eat <span>(  ${fields[10].value}  )</span> and are proud of their big <span>(  ${fields[11].value}  )</span>. They also like to <span>(  ${fields[12].value}  )</span> in the sun and swim in the
+    <span>(  ${fields[13].value}  )</span>! It was a really <span>(  ${fields[14].value}  )</span> trip!
+    `;
+    break;
         default:
             break;
     }

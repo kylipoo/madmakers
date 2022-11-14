@@ -438,6 +438,86 @@ export const libsIn = [
             value: ""
         },
         ]
+    },
+    {
+        id: 7,
+        name: "Summer Trip",
+        mad: [{
+            label: 'NOUN',
+            placeholder: 'person',
+            value: ""
+        },
+        {
+            label: 'NOUN',
+            placeholder: 'place',
+            value: ""
+        },
+        {
+            label: 'ADJECTIVE',
+            placeholder: '',
+            value: ""
+        },
+        {
+            label: 'NOUN',
+            placeholder: 'place(same as previous noun)',
+            value: ""
+        },
+        {
+            label: 'NOUN',
+            placeholder: 'plural noun',
+            value: ""
+        },
+        {
+            label: 'ADJECTIVE',
+            placeholder: '',
+            value: ""
+        },
+        {
+            label: 'NOUN',
+            placeholder: 'plural noun',
+            value: ""
+        },
+        {
+            label: 'NOUN',
+            placeholder: 'place',
+            value: ""
+        },
+        {
+            label: 'VERB',
+            placeholder: 'action verb',
+            value: ""
+        },
+        {
+            label: 'NOUN',
+            placeholder: 'plural noun',
+            value: ""
+        },
+        {
+            label: 'NOUN',
+            placeholder: 'plural noun',
+            value: ""
+        },
+        {
+            label: 'NOUN',
+            placeholder: 'noun',
+            value: ""
+        },
+        {
+            label: 'VERB',
+            placeholder: 'action verb',
+            value: ""
+        },
+        {
+            label: 'NOUN',
+            placeholder: 'place',
+            value: ""
+        },
+        {
+            label: 'ADJECTIVE',
+            placeholder: '',
+            value: ""
+        },
+        ]
     }
 
 ]
