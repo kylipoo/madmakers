@@ -15,7 +15,7 @@ const Output = ({ fields, id, word}) => {
           <div className="word">{word}</div>
           <div className="talking">
            <img src='http://www.downloadclipart.net/medium/speech-bubble-png-file.png' alt="speech bubble" />
-           <img src={`https://robohash.org/${theRandomNumber}?set=set${group}&size=180x180`}  alt="robot"/>
+           <img src={`https://robohash.org/${theRandomNumber}?set=set${group}&bgset=bg1&size=180x180`}  alt="robot"/>
           </div>
         {/* <div className="robot">
           <img src={`https://robohash.org/${theRandomNumber}?set=set${group}&size=180x180`}  alt="robot"/>
