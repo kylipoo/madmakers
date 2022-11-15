@@ -12,7 +12,7 @@ const Quiz = () => {
         if(correct) setScore(score+1);
     }
     useEffect(() => {
-        const url = "https://cors-anywhere.herokuapp.com/https://quizapi.io/api/v1/questions";
+        const url = "https://cors-anywhere.herokuapp.com/https://quizapi.io/api/v1/questions?category=Linux&limit=10";
         const fetchData = async () => {
             try {
                 const response = await fetch(url, {
@@ -22,7 +22,6 @@ const Quiz = () => {
                     'Access-Control-Allow-Headers': '*',
                     "Content-Type": "application/json",
                     "X-Api-Key": "2J1f4TNsnEGM4Z0grnwrgHRlLhLXVu24zNVo1ISG",
-                    "category": "Linux"
                     }
                 });
                 const json = await response.json();
